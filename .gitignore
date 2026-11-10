@@ -1,0 +1,23 @@
+# Jupyter and Python housekeeping
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Editor settings
+.vscode/
+.idea/
+
+# Never commit distance matrices (about 0.4 GiB each at n = 10,000); they can be rebuilt from the notebook
+distance*.npy
+*_distance*.npy
+*.npz
+*.mmap
+
+# NOTE: outputs/ and reports/ are intentionally NOT ignored; the teammate builds on outputs/.
+# NOTE: .gitignore only affects files that are not tracked yet. The raw .dta and the processed CSV were committed earlier and stay tracked.
