@@ -155,8 +155,8 @@ Planned additions: `outputs/` for cluster assignments, evaluation results, and m
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/TeeRachen/Children-Screentime-Clustering.git
-   cd Children-Screentime-Clustering
+   git clone https://github.com/TeeRachen/ITCS444-Children-Screentime-Clustering.git
+   cd ITCS444-Children-Screentime-Clustering
    ```
 2. **Python environment.** The notebooks were developed in the **Anaconda `base`** environment, which already includes every required package. Without Anaconda, install the libraries in [Section 7](#7-tech-stack):
    ```bash
@@ -221,7 +221,7 @@ Cluster profiles, visualizations, insights, and ethical reflection will be built
 | Role | Responsibilities |
 |---|---|
 | Model implementation and evaluation ([@TeeRachen](https://github.com/TeeRachen)) | Gower distance, hierarchical clustering, silhouette and stability evaluation, sensitivity analyses, exported model outputs |
-| Visualization, insights, and ethical reflection (teammate) | Cluster visualization and profiling, interpretation of insights, ethical reflection |
+| Visualization, insights, and ethical reflection ([@Chavanon-bit](https://github.com/Chavanon-bit)) | Cluster visualization and profiling, interpretation of insights, ethical reflection |
 
 The team uses `main` for the stable, integrated project, and the feature branches `feature/model-implementation` and `feature/visualization-insights`. Changes reach `main` through pull requests.
 
@@ -234,5 +234,4 @@ Based on the repository's Git history:
 | `1225b72` | 2026-11-03 | Initial commit |
 | `c79b593` | 2026-11-04 | Organized files; split preprocessing and EDA into separate notebooks |
 | `40bbb6d` | 2026-11-06 | Preprocessing: stable identifier (`hhid`), survey metadata, imputation indicators, sleep-scale fixes, `sleep_below_minimum` (on `feature/model-implementation`) |
-
-**In progress (not yet committed):** documentation of the sleep comparability review and the `sc_age_lt4` metadata column in `01_preprocessing.ipynb`, plus `03_clustering.ipynb` Sections 0–6 (Gower implementation and validation, replicate sampling, 2,000-child pilot).
+| `7a30f5e` | 2026-11-06 | Sleep comparability review and `sc_age_lt4` metadata in `01_preprocessing.ipynb`; `03_clustering.ipynb` Sections 0–6 (Gower implementation and validation, replicate sampling, 2,000-child pilot); full README (on `feature/model-implementation`) |
