@@ -101,7 +101,7 @@ Unweighted unless stated. Weighted values have no standard errors, so small diff
 
   The **neighborhood contrast between clusters 1 and 2 depends on how the three correlated neighborhood items are weighted or coded.** A group with high reported treatment and medication use reappears under W1, W2 and the count variant, but not in the other four runs, and its size and medication share change from sample to sample.
 - **The two variants are not more stable.** Across the five replicate samples at k = 3, mean ARI is 0.53 for the primary model, 0.36 for W2 and 0.33 for the count variant, so the primary model was kept.
-- **Alternative k = 4 test.** The count variant at k = 4 was the most stable cell tested (mean ARI 0.54), but it splits children mainly by sex and keeps no neighborhood information (about 1.9 amenities in every cluster). It was not adopted (README Section 15.3).
+- **Alternative k = 4 test.** The count variant at k = 4 was the most stable cell tested (mean ARI 0.54), but it splits children mainly by sex and keeps no neighborhood information (about 1.9 amenities in every cluster). It was not adopted (details in `docs/challenges.md`).
 
 ## 7. Limitations
 
