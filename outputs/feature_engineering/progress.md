@@ -1,0 +1,23 @@
+﻿# Feature-engineering progress log
+
+- 2026-11-11 02:06 Read checkpoint and plan. Branch feature/feature-engineering, free RAM 3.9 GiB. Starting: read 03 helpers.
+- 02:07 Read helper code in 03. Building 04 notebook in stages via a scratchpad builder: part 1 = setup + helpers + Step 1 diagnostics (no clustering). Then I decide on the optional extra candidate before adding clustering.
+- 02:10 Part 1 (setup, helper validation, Step 1 diagnostics) built and smoke-tested at n=1000, then run at full size in a scratch copy; diag_*.csv written. Reviewing diagnostics for the optional extra candidate.
+- 02:17 Smoke test of the complete notebook at n=1000 passed. Step 1 conclusion: no extra candidate (reasons in the notebook, written before clustering). Starting the FULL run of 04_feature_engineering.ipynb in the background (30 runs, estimated 1.5-2 h; resumable via a scratch cache). The notebook appends its own progress lines below.
+- 02:18 Step 2/3 runs started: primary re-run (reference), then A, B, C, D (5 parts each, W0), then W1 on part 0.
+- 02:26 primary (14 features, W0) finished on all five parts.
+- 02:26 Validation: this notebook's primary k=3 labelling equals the approved one (ARI 1.0) and the replicate ARIs match notebook 03.
+- 02:33 Candidate A (no sex, 13 features) finished on all five parts.
+- 02:40 Candidate B (merged mental-health item, 13 features) finished on all five parts.
+- 02:46 Candidate C (combined cleanup, 10 features) finished on all five parts.
+- 02:47 Run stopped in candidate D part 0 (first failure): a height cut at k=5 gave 4 clusters because of tied merge heights. Primary, A, B, C were already finished (primary reproduces the approved labelling exactly). Fix: fall back to cut_tree (undo the last k-1 merges) only when fcluster returns fewer than k; identical when no ties; flagged in tie_fallback_cut. Resuming from the cache.
+- 02:48 Step 2/3 runs started: primary re-run (reference), then A, B, C, D (5 parts each, W0), then W1 on part 0.
+- 02:48 primary (14 features, W0) finished on all five parts.
+- 02:48 Validation: this notebook's primary k=3 labelling equals the approved one (ARI 1.0) and the replicate ARIs match notebook 03.
+- 02:48 Candidate A (no sex, 13 features) finished on all five parts.
+- 02:48 Candidate B (merged mental-health item, 13 features) finished on all five parts.
+- 02:48 Candidate C (combined cleanup, 10 features) finished on all five parts.
+- 02:53 Candidate D (C without sleep, 9 features) finished on all five parts.
+- 03:00 W1 runs (part 0) finished for the primary and candidates A-D.
+- 03:00 Evaluation, decision-rule table, profiles and CSV exports written. Verdicts: primary: reference; A_no_sex: tested, not adopted; B_merged_mh: tested, not adopted; C_combined: tested, not adopted; D_C_no_sleep: tested, not adopted
+- 03:01 DONE. Wrote reports/feature_engineering.md and updated PROJECT_CHECKPOINT.md (section 5f). No candidate met rules 1-4; recommendation: keep the approved primary. Nothing committed.

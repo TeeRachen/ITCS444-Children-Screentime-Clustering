@@ -81,6 +81,7 @@ Medication use is parent-reported, not a diagnosis. `eyedoctor` is excluded beca
 | 2026-11-10 | W0 and k = 3 | Best silhouette among k = 2–10, no small cluster, acceptable stability, separates an older group. |
 | 2026-11-11 | Neighborhood count and W2 not adopted | Not more stable than the primary model at k = 3. |
 | 2026-11-11 | k = 4 not adopted | The most stable alternative is driven by a sex split and keeps no neighborhood information. |
+| 2026-11-11 | Feature-set changes not adopted | Four cleaner feature sets (no sex; merged mental-health items; combined cleanup; combined cleanup without sleep) were tested ([`reports/feature_engineering.md`](reports/feature_engineering.md)). None was more stable and less weighting-sensitive without creating tiny clusters or a split driven by one feature. |
 
 ## 4. Results
 
@@ -97,7 +98,8 @@ Primary model (complete linkage, W0, k = 3). Full tables are in [`reports/model_
 - **Clusters 1 and 2** differ mainly in neighborhood amenities. Their screen-time levels are similar.
 - **Cluster 3** is older, with much higher reported treatment, medication use and screen time. Screen time rises with age, so these differences do not show that treatment or medication relate to screen time on their own.
 - **The structure is weak.** Mean silhouette is 0.208, and the mean ARI between replicate samples is 0.525 (range 0.302–0.805).
-- **The clusters are sensitive to modelling choices.** With W1, W2, or one count in place of the three neighborhood items, the clusters agree with the primary ones at ARI 0.04–0.08, far below that range. The two neighborhood variants were not more stable at k = 3, so the primary model is kept.
+- **The clusters are sensitive to modelling choices.** With W1, W2, or one count in place of the three neighborhood items, the clusters agree with the primary ones at ARI 0.04–0.08, far below that range. The two neighborhood variants were not more stable at k = 3, so the primary model is kept. A later feature-engineering experiment ([`04_feature_engineering.ipynb`](04_feature_engineering.ipynb), [report](reports/feature_engineering.md)) reached the same conclusion: removing sex, merging the two mental-health items, or replacing the three neighborhood items with a count did not give a more stable clustering, and the clusters still changed with the weighting.
+- **Evaluation approach:** there are no true labels, so confusion matrices and accuracy do not apply. The replicate samples with held-out assignment play the role of repeated train-test splits, and all scores are collected in [`reports/evaluation_summary.md`](reports/evaluation_summary.md).
 - **Assignment:** 5.9% of the assigned children have a margin below 0.02. In a leave-one-out check, 89.2% of sample children return to their cluster, but only 67.7% in cluster 3.
 
 ## 5. Outputs
@@ -121,8 +123,9 @@ Children-Screentime-Clustering/
 ├── 01_preprocessing.ipynb
 ├── 02_eda.ipynb
 ├── 03_clustering.ipynb
-├── outputs/              # exported results
-├── reports/model_summary.md
+├── 04_feature_engineering.ipynb   # experiment, primary model unchanged
+├── outputs/              # exported results (outputs/feature_engineering/ for the experiment)
+├── reports/              # model_summary.md, evaluation_summary.md, feature_engineering.md
 ├── docs/challenges.md    # what did not work, with details
 └── README.md
 ```
