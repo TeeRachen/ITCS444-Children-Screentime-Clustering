@@ -1,0 +1,361 @@
+candidate,cluster,statistic,n_used,unweighted,weighted
+primary,1,number of children,33714,33714.0,
+primary,1,mean age (years),33714,9.637420656107254,8.883849855125778
+primary,1,% female,33714,48.96185560894584,48.84180449858884
+primary,1,% vision difficulty,33714,1.2635700302544937,1.5373250182168887
+primary,1,% mental-health treatment received,33714,13.294180459156433,10.500556754353875
+primary,1,"% mental-health care needed, not received",33714,2.4055288604140714,2.382986852627055
+primary,1,% medication for emotions/concentration/behavior,33714,9.011093314350122,6.59798479703637
+primary,1,mean screen-time code (1-5),33714,3.1836329121433233,3.135357617643476
+primary,1,% screen time 4+ h,33714,22.51586877854897,21.371568012200125
+primary,1,% sleep below age minimum,33430,30.20341011067903,33.58937788883871
+primary,1,% curiosity in learning 'always',33714,55.12546716497597,59.70500117650398
+primary,1,% highest adult education below high school,33714,2.0733226552767396,6.7632430413115685
+primary,1,% food sometimes/often not enough,33714,3.1322299341519844,4.262858905524942
+primary,1,mean neighborhood amenities present (0-3),33714,2.6130984160882718,2.597037504643838
+primary,1,% park or playground,33714,96.53852998754226,96.55598957030948
+primary,1,% recreation/community center,33714,68.59464910719582,67.76476809440432
+primary,1,% library,33714,96.1766625140891,95.38299279967005
+primary,1,% questionnaire form T1 (ages 0-5),33714,26.87014296731328,30.00632401469324
+primary,2,number of children,14477,14477.0,
+primary,2,mean age (years),14477,8.942736754852525,8.18892651978732
+primary,2,% female,14477,46.480624438764934,47.65946569918094
+primary,2,% vision difficulty,14477,1.4643917938799476,1.9622423111098
+primary,2,% mental-health treatment received,14477,1.7199696069627686,1.1794045137525397
+primary,2,"% mental-health care needed, not received",14477,1.1121088623333564,1.1094510838027627
+primary,2,% medication for emotions/concentration/behavior,14477,2.3278303515921808,1.6695156558954702
+primary,2,mean screen-time code (1-5),14477,3.1264764799336877,3.0627928054343014
+primary,2,% screen time 4+ h,14477,21.399461214339986,20.764087123211556
+primary,2,% sleep below age minimum,14315,32.07823960880196,35.07301502933877
+primary,2,% curiosity in learning 'always',14477,55.909373488982524,59.86027847916341
+primary,2,% highest adult education below high school,14477,3.806037162395524,12.135801819480422
+primary,2,% food sometimes/often not enough,14477,4.503695517027008,6.811477316194183
+primary,2,mean neighborhood amenities present (0-3),14477,0.5480417213511086,0.5712516073631968
+primary,2,% park or playground,14477,36.96207777854528,38.636739090576754
+primary,2,% recreation/community center,14477,5.519099260896595,6.612299059904488
+primary,2,% library,14477,12.322995095668992,11.876122585838432
+primary,2,% questionnaire form T1 (ages 0-5),14477,32.58962492229053,36.14668049162939
+primary,3,number of children,3184,3184.0,
+primary,3,mean age (years),3184,13.249057788944723,12.762831334262035
+primary,3,% female,3184,55.43341708542714,54.25740914644423
+primary,3,% vision difficulty,3184,2.9522613065326633,4.770996577585802
+primary,3,% mental-health treatment received,3184,78.17211055276383,74.59630918163911
+primary,3,"% mental-health care needed, not received",3184,9.516331658291458,12.913519264826682
+primary,3,% medication for emotions/concentration/behavior,3184,62.185929648241206,57.377347644269896
+primary,3,mean screen-time code (1-5),3184,4.142902010050252,4.11954792164479
+primary,3,% screen time 4+ h,3184,51.31909547738694,52.13665808179352
+primary,3,% sleep below age minimum,3184,41.48869346733668,44.77250533931865
+primary,3,% curiosity in learning 'always',3184,24.65452261306533,25.260167161107464
+primary,3,% highest adult education below high school,3184,2.4811557788944723,9.342281332204982
+primary,3,% food sometimes/often not enough,3184,8.228643216080402,11.374754349032138
+primary,3,mean neighborhood amenities present (0-3),3184,0.7704145728643216,0.7504302413569715
+primary,3,% park or playground,3184,45.697236180904525,43.741397255715164
+primary,3,% recreation/community center,3184,9.610552763819095,10.927993896769745
+primary,3,% library,3184,21.733668341708544,20.373632983212243
+primary,3,% questionnaire form T1 (ages 0-5),3184,2.0100502512562812,2.7443675492392083
+primary,all,number of children,51375,51375.0,
+primary,all,mean age (years),51375,9.665498783454987,8.871261997469524
+primary,all,% female,51375,48.66374695863747,48.759561071773085
+primary,all,% vision difficulty,51375,1.4248175182481753,1.8329801928142282
+primary,all,% mental-health treatment received,51375,14.05352798053528,10.95155863886288
+primary,all,"% mental-health care needed, not received",51375,2.4817518248175183,2.535697949566944
+primary,all,% medication for emotions/concentration/behavior,51375,10.423357664233576,7.7040632031856076
+primary,all,mean screen-time code (1-5),51375,3.226978102189781,3.163794021819366
+primary,all,% screen time 4+ h,51375,23.98637469586375,22.76679215191816
+primary,all,% sleep below age minimum,50929,31.435920595338608,34.62251402605103
+primary,all,% curiosity in learning 'always',51375,53.45790754257907,57.98288841523476
+primary,all,% highest adult education below high school,51375,2.586861313868613,8.533600030139393
+primary,all,% food sometimes/often not enough,51375,3.834549878345499,5.4051690008871
+primary,all,mean neighborhood amenities present (0-3),51375,1.9169829683698296,1.884598154751433
+primary,all,% park or playground,51375,76.59951338199514,76.18569711470052
+primary,all,% recreation/community center,51375,47.16496350364964,46.2021796646242
+primary,all,% library,51375,67.9338199513382,66.07193869581856
+primary,all,% questionnaire form T1 (ages 0-5),51375,26.941119221411192,30.477802102765885
+A_no_sex,1,number of children,23346,23346.0,
+A_no_sex,1,mean age (years),23346,8.94637196950227,8.240257926424253
+A_no_sex,1,% female,23346,48.522230789000254,48.859007832751004
+A_no_sex,1,% vision difficulty,23346,1.5505868242953824,2.102246594090686
+A_no_sex,1,% mental-health treatment received,23346,6.823438704703161,5.588162790398912
+A_no_sex,1,"% mental-health care needed, not received",23346,1.9489420029127045,2.0222493252964155
+A_no_sex,1,% medication for emotions/concentration/behavior,23346,6.305148633598903,4.807145642547812
+A_no_sex,1,mean screen-time code (1-5),23346,3.1121819583654586,3.068411536432226
+A_no_sex,1,% screen time 4+ h,23346,20.68448556497901,20.101007215998777
+A_no_sex,1,% sleep below age minimum,23102,35.63760713358151,38.040866398871735
+A_no_sex,1,% curiosity in learning 'always',23346,56.36083269082498,59.83942062387119
+A_no_sex,1,% highest adult education below high school,23346,3.336760044547246,10.787147936365354
+A_no_sex,1,% food sometimes/often not enough,23346,4.356206630686199,6.171266002317628
+A_no_sex,1,mean neighborhood amenities present (0-3),23346,0.9779405465604386,0.9919110099557844
+A_no_sex,1,% park or playground,23346,55.7611582283903,56.73899167857932
+A_no_sex,1,% recreation/community center,23346,0.40263856763471256,0.6190746385761834
+A_no_sex,1,% library,23346,41.630257860018844,41.833034678422926
+A_no_sex,1,% questionnaire form T1 (ages 0-5),23346,31.84699734429881,34.829881006956164
+A_no_sex,2,number of children,15639,15639.0,
+A_no_sex,2,mean age (years),15639,12.146876398746723,11.561346721593845
+A_no_sex,2,% female,15639,48.532514866679456,47.70165391424759
+A_no_sex,2,% vision difficulty,15639,1.3875567491527592,1.693995533035013
+A_no_sex,2,% mental-health treatment received,15639,29.89960994948526,25.409275102681978
+A_no_sex,2,"% mental-health care needed, not received",15639,3.657522859517872,3.7515712711966356
+A_no_sex,2,% medication for emotions/concentration/behavior,15639,20.75580280069058,16.774426805449078
+A_no_sex,2,mean screen-time code (1-5),15639,3.755994628812584,3.7470113924918733
+A_no_sex,2,% screen time 4+ h,15639,33.88963488714112,33.66910818390352
+A_no_sex,2,% sleep below age minimum,15637,6.0369636119460255,5.455648729857938
+A_no_sex,2,% curiosity in learning 'always',15639,42.69454568706439,47.31485844724973
+A_no_sex,2,% highest adult education below high school,15639,1.7200588272907475,6.377515451491808
+A_no_sex,2,% food sometimes/often not enough,15639,3.088432764243238,4.020274213273752
+A_no_sex,2,mean neighborhood amenities present (0-3),15639,2.6535584116631497,2.6786872082210835
+A_no_sex,2,% park or playground,15639,93.71443186904534,94.14936863507033
+A_no_sex,2,% recreation/community center,15639,78.77102116503613,80.67142317158992
+A_no_sex,2,% library,15639,92.87038813223351,93.04792901544809
+A_no_sex,2,% questionnaire form T1 (ages 0-5),15639,8.075963936313064,10.012864202786943
+A_no_sex,3,number of children,12390,12390.0,
+A_no_sex,3,mean age (years),12390,7.888458434221146,7.404249403370118
+A_no_sex,3,% female,12390,49.09604519774011,49.60664656361747
+A_no_sex,3,% vision difficulty,12390,1.234866828087167,1.4787972787760553
+A_no_sex,3,% mental-health treatment received,12390,7.675544794188862,6.650115070723649
+A_no_sex,3,"% mental-health care needed, not received",12390,2.0016142050040355,2.287312273619845
+A_no_sex,3,% medication for emotions/concentration/behavior,12390,5.141242937853107,4.155324405512068
+A_no_sex,3,mean screen-time code (1-5),12390,2.775544794188862,2.7704878796537034
+A_no_sex,3,% screen time 4+ h,12390,17.70782889426957,17.018377692035052
+A_no_sex,3,% sleep below age minimum,12190,56.05414273995078,57.3766164849083
+A_no_sex,3,% curiosity in learning 'always',12390,61.573849878934624,64.9739551486169
+A_no_sex,3,% highest adult education below high school,12390,2.267958030669895,6.533967355807349
+A_no_sex,3,% food sometimes/often not enough,12390,3.7933817594834545,5.358744534364466
+A_no_sex,3,mean neighborhood amenities present (0-3),12390,2.7566585956416465,2.7349840427231267
+A_no_sex,3,% park or playground,12390,94.26150121065375,94.06496625359911
+A_no_sex,3,% recreation/community center,12390,95.38337368845843,95.53120364815021
+A_no_sex,3,% library,12390,86.02098466505247,83.90223437056338
+A_no_sex,3,% questionnaire form T1 (ages 0-5),12390,41.509281678773206,42.45266541725112
+A_no_sex,all,number of children,51375,51375.0,
+A_no_sex,all,mean age (years),51375,9.665498783454987,8.871261997469524
+A_no_sex,all,% female,51375,48.66374695863747,48.759561071773085
+A_no_sex,all,% vision difficulty,51375,1.4248175182481753,1.8329801928142282
+A_no_sex,all,% mental-health treatment received,51375,14.05352798053528,10.95155863886288
+A_no_sex,all,"% mental-health care needed, not received",51375,2.4817518248175183,2.535697949566944
+A_no_sex,all,% medication for emotions/concentration/behavior,51375,10.423357664233576,7.7040632031856076
+A_no_sex,all,mean screen-time code (1-5),51375,3.226978102189781,3.163794021819366
+A_no_sex,all,% screen time 4+ h,51375,23.98637469586375,22.76679215191816
+A_no_sex,all,% sleep below age minimum,50929,31.435920595338608,34.62251402605103
+A_no_sex,all,% curiosity in learning 'always',51375,53.45790754257907,57.98288841523476
+A_no_sex,all,% highest adult education below high school,51375,2.586861313868613,8.533600030139393
+A_no_sex,all,% food sometimes/often not enough,51375,3.834549878345499,5.4051690008871
+A_no_sex,all,mean neighborhood amenities present (0-3),51375,1.9169829683698296,1.884598154751433
+A_no_sex,all,% park or playground,51375,76.59951338199514,76.18569711470052
+A_no_sex,all,% recreation/community center,51375,47.16496350364964,46.2021796646242
+A_no_sex,all,% library,51375,67.9338199513382,66.07193869581856
+A_no_sex,all,% questionnaire form T1 (ages 0-5),51375,26.941119221411192,30.477802102765885
+B_merged_mh,1,number of children,27512,27512.0,
+B_merged_mh,1,mean age (years),27512,9.670071241640011,8.879632204105615
+B_merged_mh,1,% female,27512,55.07414946205292,55.141952333634
+B_merged_mh,1,% vision difficulty,27512,1.3012503634777552,1.598690720181144
+B_merged_mh,1,% mental-health treatment received,27512,14.128380343123,10.90098649942993
+B_merged_mh,1,"% mental-health care needed, not received",27512,2.264466414655423,2.1846125725156686
+B_merged_mh,1,% medication for emotions/concentration/behavior,27512,9.690316952602501,7.104407940161103
+B_merged_mh,1,mean screen-time code (1-5),27512,3.1708708927013665,3.114021829654099
+B_merged_mh,1,% screen time 4+ h,27512,22.71009014248328,21.259348330108377
+B_merged_mh,1,% sleep below age minimum,27271,26.130321587033844,29.05488606185204
+B_merged_mh,1,% curiosity in learning 'always',27512,55.292236115149755,60.425505232852345
+B_merged_mh,1,% highest adult education below high school,27512,1.991858098284385,6.664794305362292
+B_merged_mh,1,% food sometimes/often not enough,27512,3.0386740331491713,4.124845370520593
+B_merged_mh,1,mean neighborhood amenities present (0-3),27512,2.7641029369002617,2.7465798544359954
+B_merged_mh,1,% park or playground,27512,95.73640593195697,95.64205379517635
+B_merged_mh,1,% recreation/community center,27512,87.22012212852573,87.3969985557479
+B_merged_mh,1,% library,27512,93.45376562954347,91.61893309267528
+B_merged_mh,1,% questionnaire form T1 (ages 0-5),27512,26.966414655423087,30.49649022343278
+B_merged_mh,2,number of children,14590,14590.0,
+B_merged_mh,2,mean age (years),14590,9.350102810143934,8.55753459614363
+B_merged_mh,2,% female,14590,7.1624400274160385,6.839642189644378
+B_merged_mh,2,% vision difficulty,14590,1.295407813570939,1.5514643613621908
+B_merged_mh,2,% mental-health treatment received,14590,11.624400274160385,8.981023516309678
+B_merged_mh,2,"% mental-health care needed, not received",14590,2.3577793008910213,2.5887085192183132
+B_merged_mh,2,% medication for emotions/concentration/behavior,14590,10.171350239890335,7.59181576484305
+B_merged_mh,2,mean screen-time code (1-5),14590,3.209869773817683,3.1559346493411833
+B_merged_mh,2,% screen time 4+ h,14590,23.94790952707334,23.420105665878086
+B_merged_mh,2,% sleep below age minimum,14454,29.638854296388544,33.3379556893646
+B_merged_mh,2,% curiosity in learning 'always',14590,52.25496915695682,56.33491400526488
+B_merged_mh,2,% highest adult education below high school,14590,3.255654557916381,9.89322946682513
+B_merged_mh,2,% food sometimes/often not enough,14590,4.653872515421521,7.014870528302072
+B_merged_mh,2,mean neighborhood amenities present (0-3),14590,1.0542837559972584,1.0551676214246437
+B_merged_mh,2,% park or playground,14590,59.794379712131594,60.121739334143776
+B_merged_mh,2,% recreation/community center,14590,1.0143934201507883,1.1221535374285396
+B_merged_mh,2,% library,14590,44.61960246744346,44.27286927089205
+B_merged_mh,2,% questionnaire form T1 (ages 0-5),14590,29.14324880054832,32.944900435262426
+B_merged_mh,3,number of children,9273,9273.0,
+B_merged_mh,3,mean age (years),9273,10.148172112584923,9.327469856355401
+B_merged_mh,3,% female,9273,94.9423056184622,95.16285123902995
+B_merged_mh,3,% vision difficulty,9273,1.9950393615874042,2.9109173787654963
+B_merged_mh,3,% mental-health treatment received,9273,17.653402350911247,14.10221423847994
+B_merged_mh,3,"% mental-health care needed, not received",9273,3.3214709371293,3.4254415386246513
+B_merged_mh,3,% medication for emotions/concentration/behavior,9273,12.994715841690931,9.533595892570071
+B_merged_mh,3,mean screen-time code (1-5),9273,3.4203601854847405,3.313421026474243
+B_merged_mh,3,% screen time 4+ h,9273,27.83349509328157,25.936612726517097
+B_merged_mh,3,% sleep below age minimum,9204,49.97827031725337,51.97390816950902
+B_merged_mh,3,% curiosity in learning 'always',9273,49.90833602933247,53.74710987542687
+B_merged_mh,3,% highest adult education below high school,9273,3.299902944031058,11.623378395929347
+B_merged_mh,3,% food sometimes/often not enough,9273,4.906718429850103,6.485722714359636
+B_merged_mh,3,mean neighborhood amenities present (0-3),9273,0.7610266364714763,0.7685525245658432
+B_merged_mh,3,% park or playground,9273,46.263345195729535,46.93398939753031
+B_merged_mh,3,% recreation/community center,9273,0.938207699773536,1.1786400412314937
+B_merged_mh,3,% library,9273,28.90111075164456,28.74262301782252
+B_merged_mh,3,% questionnaire form T1 (ages 0-5),9273,23.401272511592797,26.656594593095203
+B_merged_mh,all,number of children,51375,51375.0,
+B_merged_mh,all,mean age (years),51375,9.665498783454987,8.871261997469524
+B_merged_mh,all,% female,51375,48.66374695863747,48.759561071773085
+B_merged_mh,all,% vision difficulty,51375,1.4248175182481753,1.8329801928142282
+B_merged_mh,all,% mental-health treatment received,51375,14.05352798053528,10.95155863886288
+B_merged_mh,all,"% mental-health care needed, not received",51375,2.4817518248175183,2.535697949566944
+B_merged_mh,all,% medication for emotions/concentration/behavior,51375,10.423357664233576,7.7040632031856076
+B_merged_mh,all,mean screen-time code (1-5),51375,3.226978102189781,3.163794021819366
+B_merged_mh,all,% screen time 4+ h,51375,23.98637469586375,22.76679215191816
+B_merged_mh,all,% sleep below age minimum,50929,31.435920595338608,34.62251402605103
+B_merged_mh,all,% curiosity in learning 'always',51375,53.45790754257907,57.98288841523476
+B_merged_mh,all,% highest adult education below high school,51375,2.586861313868613,8.533600030139393
+B_merged_mh,all,% food sometimes/often not enough,51375,3.834549878345499,5.4051690008871
+B_merged_mh,all,mean neighborhood amenities present (0-3),51375,1.9169829683698296,1.884598154751433
+B_merged_mh,all,% park or playground,51375,76.59951338199514,76.18569711470052
+B_merged_mh,all,% recreation/community center,51375,47.16496350364964,46.2021796646242
+B_merged_mh,all,% library,51375,67.9338199513382,66.07193869581856
+B_merged_mh,all,% questionnaire form T1 (ages 0-5),51375,26.941119221411192,30.477802102765885
+C_combined,1,number of children,22933,22933.0,
+C_combined,1,mean age (years),22933,6.978022936379889,6.597082510958756
+C_combined,1,% female,22933,49.42659050276894,49.28386274376305
+C_combined,1,% vision difficulty,22933,0.9942004971002486,1.186099875654414
+C_combined,1,% mental-health treatment received,22933,2.2064274190031834,1.7427644326833462
+C_combined,1,"% mental-health care needed, not received",22933,0.5363450050146078,0.4839469965540273
+C_combined,1,% medication for emotions/concentration/behavior,22933,1.207866393406881,0.9116370299047448
+C_combined,1,mean screen-time code (1-5),22933,2.427026555618541,2.4579242079737416
+C_combined,1,% screen time 4+ h,22933,5.982645096585706,7.016885463518029
+C_combined,1,% sleep below age minimum,22492,4.850613551484972,5.547877252074917
+C_combined,1,% curiosity in learning 'always',22933,70.94579863079406,73.1304813657907
+C_combined,1,% highest adult education below high school,22933,2.1584616055465924,7.478891778699675
+C_combined,1,% food sometimes/often not enough,22933,2.315440631404526,3.526453164268693
+C_combined,1,mean neighborhood amenities present (0-3),22933,1.8744167793136528,1.8415553248056316
+C_combined,1,% park or playground,22933,76.35285396590066,75.9289840767154
+C_combined,1,% recreation/community center,22933,44.660532856582215,44.00696194738787
+C_combined,1,% library,22933,66.42829110888239,64.2195864564599
+C_combined,1,% questionnaire form T1 (ages 0-5),22933,45.35385688745476,46.68603457142473
+C_combined,2,number of children,14604,14604.0,
+C_combined,2,mean age (years),14604,10.467132292522596,9.528590466278457
+C_combined,2,% female,14604,48.56888523692139,48.824844971365465
+C_combined,2,% vision difficulty,14604,1.670775130101342,1.9425790141738881
+C_combined,2,% mental-health treatment received,14604,15.52999178307313,12.45359213916786
+C_combined,2,"% mental-health care needed, not received",14604,3.5264311147630787,3.878934026841698
+C_combined,2,% medication for emotions/concentration/behavior,14604,12.31169542591071,9.285992528267062
+C_combined,2,mean screen-time code (1-5),14604,3.631128457956724,3.545403299839104
+C_combined,2,% screen time 4+ h,14604,31.176390030128733,29.40674796812613
+C_combined,2,% sleep below age minimum,14600,99.79452054794521,99.54112026680879
+C_combined,2,% curiosity in learning 'always',14604,48.39769926047658,52.84448528585831
+C_combined,2,% highest adult education below high school,14604,3.656532456861134,10.555819140716318
+C_combined,2,% food sometimes/often not enough,14604,6.183237469186524,8.054792429426177
+C_combined,2,mean neighborhood amenities present (0-3),14604,1.8506573541495481,1.831641602627041
+C_combined,2,% park or playground,14604,74.06874828814024,73.96233073155092
+C_combined,2,% recreation/community center,14604,45.17940290331416,44.65252719927597
+C_combined,2,% library,14604,65.8175842235004,64.54930233187723
+C_combined,2,% questionnaire form T1 (ages 0-5),14604,20.247877293892085,24.310542967705683
+C_combined,3,number of children,13838,13838.0,
+C_combined,3,mean age (years),13838,13.27330539095245,12.85281321347074
+C_combined,3,% female,13838,47.499638676109264,47.529576945580935
+C_combined,3,% vision difficulty,13838,1.8788842318254082,3.076872375617653
+C_combined,3,% mental-health treatment received,13838,32.12892036421448,28.742970086344958
+C_combined,3,"% mental-health care needed, not received",13838,4.6032663679722505,5.048154632479317
+C_combined,3,% medication for emotions/concentration/behavior,13838,23.702847232258996,20.14483432027263
+C_combined,3,mean screen-time code (1-5),13838,4.126174302644891,4.144027888077847
+C_combined,3,% screen time 4+ h,13838,46.23500505853447,47.336707505464155
+C_combined,3,% sleep below age minimum,13837,2.5222230252222304,2.3149893739026908
+C_combined,3,% curiosity in learning 'always',13838,29.816447463506286,32.5570206748913
+C_combined,3,% highest adult education below high school,13838,2.1679433444139327,7.908535897725467
+C_combined,3,% food sometimes/often not enough,13838,3.873392108686226,5.662568549899751
+C_combined,3,mean neighborhood amenities present (0-3),13838,2.0575227634051165,2.054075341116286
+C_combined,3,% park or playground,13838,79.67914438502673,79.941766161236
+C_combined,3,% recreation/community center,13838,53.41089752854459,53.18889622838479
+C_combined,3,% library,13838,72.66223442694032,72.27687172200775
+C_combined,3,% questionnaire form T1 (ages 0-5),13838,3.4903887845064316,4.234512957185391
+C_combined,all,number of children,51375,51375.0,
+C_combined,all,mean age (years),51375,9.665498783454987,8.871261997469524
+C_combined,all,% female,51375,48.66374695863747,48.759561071773085
+C_combined,all,% vision difficulty,51375,1.4248175182481753,1.8329801928142282
+C_combined,all,% mental-health treatment received,51375,14.05352798053528,10.95155863886288
+C_combined,all,"% mental-health care needed, not received",51375,2.4817518248175183,2.535697949566944
+C_combined,all,% medication for emotions/concentration/behavior,51375,10.423357664233576,7.7040632031856076
+C_combined,all,mean screen-time code (1-5),51375,3.226978102189781,3.163794021819366
+C_combined,all,% screen time 4+ h,51375,23.98637469586375,22.76679215191816
+C_combined,all,% sleep below age minimum,50929,31.435920595338608,34.62251402605103
+C_combined,all,% curiosity in learning 'always',51375,53.45790754257907,57.98288841523476
+C_combined,all,% highest adult education below high school,51375,2.586861313868613,8.533600030139393
+C_combined,all,% food sometimes/often not enough,51375,3.834549878345499,5.4051690008871
+C_combined,all,mean neighborhood amenities present (0-3),51375,1.9169829683698296,1.884598154751433
+C_combined,all,% park or playground,51375,76.59951338199514,76.18569711470052
+C_combined,all,% recreation/community center,51375,47.16496350364964,46.2021796646242
+C_combined,all,% library,51375,67.9338199513382,66.07193869581856
+C_combined,all,% questionnaire form T1 (ages 0-5),51375,26.941119221411192,30.477802102765885
+D_C_no_sleep,1,number of children,29994,29994.0,
+D_C_no_sleep,1,mean age (years),29994,7.011735680469427,6.840377878035506
+D_C_no_sleep,1,% female,29994,49.58991798359672,49.538413842451
+D_C_no_sleep,1,% vision difficulty,29994,0.8601720344068814,1.0467351888196648
+D_C_no_sleep,1,% mental-health treatment received,29994,0.8001600320064013,0.675585035526752
+D_C_no_sleep,1,"% mental-health care needed, not received",29994,0.3767420150696806,0.43989880882047805
+D_C_no_sleep,1,% medication for emotions/concentration/behavior,29994,0.46009201840368075,0.4658628115522274
+D_C_no_sleep,1,mean screen-time code (1-5),29994,2.6592651863706074,2.7267873242022564
+D_C_no_sleep,1,% screen time 4+ h,29994,10.322064412882577,11.92242685383715
+D_C_no_sleep,1,% sleep below age minimum,29550,30.003384094754654,33.78863917778167
+D_C_no_sleep,1,% curiosity in learning 'always',29994,71.59765286390612,72.86158245214324
+D_C_no_sleep,1,% highest adult education below high school,29994,3.3239981329599253,9.886098267390537
+D_C_no_sleep,1,% food sometimes/often not enough,29994,3.697406147896246,5.379795659155481
+D_C_no_sleep,1,mean neighborhood amenities present (0-3),29994,1.8771754350870173,1.847112355294898
+D_C_no_sleep,1,% park or playground,29994,75.39507901580316,75.15976773062484
+D_C_no_sleep,1,% recreation/community center,29994,46.13922784556912,45.296569195306
+D_C_no_sleep,1,% library,29994,66.18323664732947,64.25489860355894
+D_C_no_sleep,1,% questionnaire form T1 (ages 0-5),29994,44.74561578982463,44.3997309999
+D_C_no_sleep,2,number of children,19095,19095.0,
+D_C_no_sleep,2,mean age (years),19095,13.44304791830322,13.022656126124174
+D_C_no_sleep,2,% female,19095,47.101335428122546,46.91035529773858
+D_C_no_sleep,2,% vision difficulty,19095,1.2673474731605132,1.5741664426725024
+D_C_no_sleep,2,% mental-health treatment received,19095,28.855721393034827,28.00262011500782
+D_C_no_sleep,2,"% mental-health care needed, not received",19095,3.1997905210788162,3.22214701733058
+D_C_no_sleep,2,% medication for emotions/concentration/behavior,19095,19.3401413982718,16.73351191844893
+D_C_no_sleep,2,mean screen-time code (1-5),19095,4.008850484420005,4.033475036632848
+D_C_no_sleep,2,% screen time 4+ h,19095,41.91673212882954,43.290243198876844
+D_C_no_sleep,2,% sleep below age minimum,19094,32.172410181208754,34.31654600672366
+D_C_no_sleep,2,% curiosity in learning 'always',19095,28.494370253993193,28.31415469795779
+D_C_no_sleep,2,% highest adult education below high school,19095,1.173081958627913,4.356636514817181
+D_C_no_sleep,2,% food sometimes/often not enough,19095,2.592301649646504,3.18411668456335
+D_C_no_sleep,2,mean neighborhood amenities present (0-3),19095,1.9984812778214192,1.9988920391736082
+D_C_no_sleep,2,% park or playground,19095,79.1987431264729,79.96304550220451
+D_C_no_sleep,2,% recreation/community center,19095,49.32181199266824,49.070272823865245
+D_C_no_sleep,2,% library,19095,71.32757266300078,70.85588559129114
+D_C_no_sleep,2,% questionnaire form T1 (ages 0-5),19095,1.7229641267347473,2.0646899064648703
+D_C_no_sleep,3,number of children,2286,2286.0,
+D_C_no_sleep,3,mean age (years),2286,12.930883639545057,12.444554201178354
+D_C_no_sleep,3,% female,2286,49.56255468066492,49.10317164303454
+D_C_no_sleep,3,% vision difficulty,2286,10.148731408573928,15.654882052263146
+D_C_no_sleep,3,% mental-health treatment received,2286,64.30446194225722,55.39126130998221
+D_C_no_sleep,3,"% mental-health care needed, not received",2286,24.10323709536308,30.20459955405589
+D_C_no_sleep,3,% medication for emotions/concentration/behavior,2286,66.66666666666667,58.87746232272216
+D_C_no_sleep,3,mean screen-time code (1-5),2286,4.1447944006999125,4.090132201811189
+D_C_no_sleep,3,% screen time 4+ h,2286,53.499562554680665,52.80493012079854
+D_C_no_sleep,3,% sleep below age minimum,2285,43.8074398249453,49.220626340394396
+D_C_no_sleep,3,% curiosity in learning 'always',2286,23.972003499562554,26.836289978512717
+D_C_no_sleep,3,% highest adult education below high school,2286,4.724409448818897,15.567979214101287
+D_C_no_sleep,3,% food sometimes/often not enough,2286,16.010498687664043,20.60078942185045
+D_C_no_sleep,3,mean neighborhood amenities present (0-3),2286,1.7585301837270342,1.6994637245905644
+D_C_no_sleep,3,% park or playground,2286,70.69116360454943,66.79071151773636
+D_C_no_sleep,3,% recreation/community center,2286,42.60717410323709,41.01701642310346
+D_C_no_sleep,3,% library,2286,62.55468066491689,62.1386445182166
+D_C_no_sleep,3,% questionnaire form T1 (ages 0-5),2286,3.9807524059492563,5.681598044441252
+D_C_no_sleep,all,number of children,51375,51375.0,
+D_C_no_sleep,all,mean age (years),51375,9.665498783454987,8.871261997469524
+D_C_no_sleep,all,% female,51375,48.66374695863747,48.759561071773085
+D_C_no_sleep,all,% vision difficulty,51375,1.4248175182481753,1.8329801928142282
+D_C_no_sleep,all,% mental-health treatment received,51375,14.05352798053528,10.95155863886288
+D_C_no_sleep,all,"% mental-health care needed, not received",51375,2.4817518248175183,2.535697949566944
+D_C_no_sleep,all,% medication for emotions/concentration/behavior,51375,10.423357664233576,7.7040632031856076
+D_C_no_sleep,all,mean screen-time code (1-5),51375,3.226978102189781,3.163794021819366
+D_C_no_sleep,all,% screen time 4+ h,51375,23.98637469586375,22.76679215191816
+D_C_no_sleep,all,% sleep below age minimum,50929,31.435920595338608,34.62251402605103
+D_C_no_sleep,all,% curiosity in learning 'always',51375,53.45790754257907,57.98288841523476
+D_C_no_sleep,all,% highest adult education below high school,51375,2.586861313868613,8.533600030139393
+D_C_no_sleep,all,% food sometimes/often not enough,51375,3.834549878345499,5.4051690008871
+D_C_no_sleep,all,mean neighborhood amenities present (0-3),51375,1.9169829683698296,1.884598154751433
+D_C_no_sleep,all,% park or playground,51375,76.59951338199514,76.18569711470052
+D_C_no_sleep,all,% recreation/community center,51375,47.16496350364964,46.2021796646242
+D_C_no_sleep,all,% library,51375,67.9338199513382,66.07193869581856
+D_C_no_sleep,all,% questionnaire form T1 (ages 0-5),51375,26.941119221411192,30.477802102765885

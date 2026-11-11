@@ -29,7 +29,7 @@ The main README gives a short summary. The model and its results are in [`../rep
 
 ## 3. Clustering attempts that did not work as hoped
 
-*(Results below come from `03_clustering.ipynb`, executed on 2026-11-10 and 2026-11-11. Complete linkage, W0 and k = 3 were approved as the primary model on 2026-11-10. Items 5 to 8 explain why it is kept despite its weaknesses.)*
+*(Results below come from `03_clustering.ipynb`, executed on 2026-11-10 and 2026-11-11. Complete linkage, W0 and k = 3 were approved as the primary model on 2026-11-10. Items 5 to 9 explain why it is kept despite its weaknesses.)*
 
 1. **Average linkage, the planned primary method, is degenerate.**
    - Seen first in the 2,000-child pilot and again at 10,000 in all five replicate samples.
@@ -41,12 +41,16 @@ The main README gives a short summary. The model and its results are in [`../rep
 3. **Results are sensitive to weighting.**
    - Under domain-balanced weights (W1), complete linkage differs from equal weights (W0) by more than the stability band at k = 2–5.
    - The three correlated neighborhood items drive the split under W0, and sex drives it under W1. A W2 run was therefore added.
-   - A group with high rates of mental-health treatment and medication and more screen time appears under both weightings.
+   - A group with high rates of mental-health treatment and medication and more screen time appears under W0, W1 and W2 (and with the neighborhood count), but not in the other four sensitivity runs (see item 5).
 4. **Silhouettes from different weightings cannot be compared directly.** W0 and W1 results are compared by ARI, cluster sizes, profiles and cross-evaluation instead.
 5. **The approved primary model is not robust.** Sensitivity runs with W1, W2, or one count in place of the three neighborhood items agree with the primary clusters at ARI 0.04-0.08, far below the replicate-sample band (0.30-0.81 at k = 3). A group with high reported mental-health treatment and medication use reappears in those three runs but not in the other four (all binaries symmetric, with `eyedoctor`, without sleep, complete cases).
 6. **The assignment rule reproduces the smallest cluster only partly.** In a leave-one-out check, 67.7% of the 573 sample children in cluster 3 return to it (89.2% overall), and assigned cluster-3 children look more extreme than sample members.
 7. **The neighborhood-item variants did not fix the instability.** Despite higher silhouettes on part 0, the W2 and count variants were not more stable across replicate samples at k = 3 (mean ARI 0.36 and 0.33 vs 0.53 for the primary model), and the high-medication group changed size and medication share from part to part.
 8. **Alternative k = 4 test (exploratory, not adopted).** The neighborhood-count variant at k = 4 was the most stable cell tested (mean ARI 0.54, smallest cluster at least 583 children in every part), so it was profiled on part 0 and all children. It was run in a scratch script outside the notebook, so its numbers are not in `outputs/`. Two clusters split children by sex (1% vs 100% female; 4+ hour screen time 22.4% vs 18.6%), and two split the older high-treatment group by sleep below the minimum (2% vs 100%). Mean neighborhood amenities were about 1.9 in all four clusters, so the environment domain no longer separated anything, and agreement with the primary k = 3 labelling was ARI 0.05. Its stability comes mostly from the easy-to-reproduce sex split, so it was not adopted.
+9. **Feature-engineering experiment (2026-11-11, not adopted).** Four candidates were run under a plan fixed beforehand (`docs/feature_engineering_plan.md`, `04_feature_engineering.ipynb`, `reports/feature_engineering.md`): A without sex, B with `k4q22_r` and `k4q23` merged, C combining A, B and the neighborhood count, D = C without sleep.
+   - At k = 3 none met the four decision rules. Mean pairwise ARI across replicate samples was 0.23 (A), 0.35 (B), 0.28 (C) and 0.49 (D), against 0.525 for the primary and the 0.575 needed. None of the four had a W0-vs-W1 agreement inside its own replicate band.
+   - C and D had clusters under 1% of the sample in some parts (37 and 51 children). A, B and C each had a feature almost defining a cluster split (Cramér's V 0.86-0.93); the primary's own value is 0.84 for the library item.
+   - Removing features moved the split to other binary items (sex, sleep, amenities) instead of fixing the weak structure. The primary model is kept.
 
 ## 4. Open limitations and unresolved decisions
 
