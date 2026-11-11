@@ -99,6 +99,7 @@ Primary model (complete linkage, W0, k = 3). Full tables are in [`reports/model_
 - **Cluster 3** is older, with much higher reported treatment, medication use and screen time. Screen time rises with age, so these differences do not show that treatment or medication relate to screen time on their own.
 - **The structure is weak.** Mean silhouette is 0.208, and the mean ARI between replicate samples is 0.525 (range 0.302–0.805).
 - **The clusters are sensitive to modelling choices.** With W1, W2, or one count in place of the three neighborhood items, the clusters agree with the primary ones at ARI 0.04–0.08, far below that range. The two neighborhood variants were not more stable at k = 3, so the primary model is kept. A later feature-engineering experiment ([`04_feature_engineering.ipynb`](04_feature_engineering.ipynb), [report](reports/feature_engineering.md)) reached the same conclusion: removing sex, merging the two mental-health items, or replacing the three neighborhood items with a count did not give a more stable clustering, and the clusters still changed with the weighting.
+- **Evaluation approach:** there are no true labels, so confusion matrices and accuracy do not apply. The replicate samples with held-out assignment play the role of repeated train-test splits, and all scores are collected in [`reports/evaluation_summary.md`](reports/evaluation_summary.md).
 - **Assignment:** 5.9% of the assigned children have a margin below 0.02. In a leave-one-out check, 89.2% of sample children return to their cluster, but only 67.7% in cluster 3.
 
 ## 5. Outputs
@@ -124,7 +125,7 @@ Children-Screentime-Clustering/
 ├── 03_clustering.ipynb
 ├── 04_feature_engineering.ipynb   # experiment, primary model unchanged
 ├── outputs/              # exported results (outputs/feature_engineering/ for the experiment)
-├── reports/              # model_summary.md, feature_engineering.md
+├── reports/              # model_summary.md, evaluation_summary.md, feature_engineering.md
 ├── docs/challenges.md    # what did not work, with details
 └── README.md
 ```
